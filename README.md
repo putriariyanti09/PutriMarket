@@ -7,7 +7,9 @@
 
 ## Daftar Isi
 
--   [Deskripsi Proyek](#deskripsi-proyek)
+-   [Deskripsi Project](#deskripsi-project)
+-   [Cara Menjalankan Project](#cara-menjalankan-project)
+-   [Cara Setup Database](#cara-setup-database)
 -   [Tampilan](#tampilan)
     -   [Tampilan Dashboard](#tampilan-dashboard)
     -   [Tampilan Barang](#tampilan-barang)
@@ -18,7 +20,24 @@
 -   [Menu Navigasi](#menu-navigasi)
 -   [Struktur Folder](#struktur-folder)
 -   [Daftar Aset (Images)](#daftar-aset-images)
--   [Cara Menjalankan](#cara-menjalankan)
+
+## Deskripsi Proyek
+
+Putri Market adalah aplikasi desktop berbasis Java Swing yang digunakan untuk mengelola data toko sederhana. Aplikasi ini memiliki beberapa fitur utama seperti manajemen data barang, kasir, pelanggan, dan nota transaksi. Proyek ini dibuat menggunakan NetBeans IDE dan terhubung ke database menggunakan JDBC.
+
+## Cara Menjalankan Project
+
+1. Buka project di NetBeans.
+2. Pastikan database sudah tersedia dan file koneksi sudah sesuai.
+3. Jalankan file `Login.java` untuk memulai aplikasi.
+4. Login menggunakan akun yang sudah terdaftar.
+
+## Cara Setup Database
+
+1. Buka `localhost/phpmyadmin` lalu klik `New`.
+2. Buat database baru di MySQL / PHPMyAdmin dengan nama `putri_market`.
+3. Import file SQL `putri_market.sql` yang terdapat di folder `database/` untuk membuat tabel dan data awal.
+4. Pastikan koneksi database di file `Koneksi.java` sudah sesuai dengan konfigurasi.
 
 ## Tampilan
 
@@ -41,10 +60,6 @@
 ### Tampilan Nota
 
 ![Nota](assets/images/gambar_panel_nota.png)
-
-## Deskripsi Proyek
-
-Putri Market adalah aplikasi desktop berbasis Java Swing yang digunakan untuk mengelola data toko sederhana. Aplikasi ini memiliki beberapa fitur utama seperti manajemen data barang, kasir, pelanggan, dan nota transaksi. Proyek ini dibuat menggunakan NetBeans IDE dan terhubung ke database menggunakan JDBC.
 
 ## Fitur Utama & Fungsi
 
@@ -110,12 +125,5 @@ Aset gambar yang digunakan pada aplikasi yang digunakan sebagai ikon pada menu a
 -   `images/nota.png` : Ikon untuk menu Nota/transaksi.
 -   `images/logout.png` : Ikon untuk menu Logout.
 -   `images/beranda.png` : Ikon untuk menu Beranda/Dashboard.
-
-## Cara Menjalankan
-
-1. Buka project di NetBeans.
-2. Pastikan database sudah tersedia dan file koneksi sudah sesuai.
-3. Jalankan file `Login.java` untuk memulai aplikasi.
-4. Login menggunakan akun yang sudah terdaftar.
 
 ---
