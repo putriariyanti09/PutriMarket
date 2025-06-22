@@ -3,11 +3,39 @@
 ## Daftar Isi
 
 -   [Deskripsi Proyek](#deskripsi-proyek)
+-   [Tampilan](#tampilan)
+-   [Tampilan Dashboard](#tampilan-dashboard)
+-   [Tampilan Barang](#tampilan-barang)
+-   [Tampilan Kasir](#tampilan-kasir)
+-   [Tampilan Pelanggan](#tampilan-pelanggan)
+-   [Tampilan Nota](#tampilan-nota)
 -   [Fitur Utama & Fungsi](#fitur-utama--fungsi)
 -   [Menu Navigasi](#menu-navigasi)
 -   [Struktur Folder](#struktur-folder)
 -   [Daftar Aset (Images)](#daftar-aset-images)
 -   [Cara Menjalankan](#cara-menjalankan)
+
+## Tampilan
+
+### Tampilan Dashboard
+
+![Dashboard](assets/images/gambar_panel_dashboard.png)
+
+### Tampilan Barang
+
+![Barang](assets/images/gambar_panel_barang.png)
+
+### Tampilan Kasir
+
+![Kasir](assets/images/gambar_panel_kasir.png)
+
+### Tampilan Pelanggan
+
+![Pelanggan](assets/images/gambar_panel_pelanggan.png)
+
+### Tampilan Nota
+
+![Nota](assets/images/gambar_panel_nota.png)
 
 ## Deskripsi Proyek
 
