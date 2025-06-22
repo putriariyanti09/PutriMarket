@@ -1,5 +1,10 @@
 # Tugas Pemrograman Visual - Putri Market
 
+## Tentang Saya
+
+-   Nama: Putri Ariyanti
+-   NPM: 202243501428
+
 ## Daftar Isi
 
 -   [Deskripsi Proyek](#deskripsi-proyek)
